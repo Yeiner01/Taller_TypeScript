@@ -1,7 +1,7 @@
-import { series } from "./data.ts";
+import { series } from "./data.js";
 
 const tableBody = document.querySelector("#series-table tbody")!;
-const averageSpan = document.querySelector("#average")! as HTMLSpanElement;
+const averageSpan = document.querySelector("#promedio")! as HTMLSpanElement;
 
 function loadSeries(): void {
   let totalTemporadas = 0;
